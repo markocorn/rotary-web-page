@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rotary klub Ajdovščina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       HEADER / NAV
+  ═══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Replace src with actual Rotary club logo file -->
+      <a href="#domov" class="logo-link">
+        <!-- Official Rotary Masterbrand Signature -->
+        <img src="assets/RotaryMBS-Simple_CMYK-C.png" alt="Rotary" class="logo" />
+        <span class="logo-divider" aria-hidden="true"></span>
+        <span class="logo-text">
+          <span class="logo-text__district">District 1912</span>
+          <strong class="logo-text__club">Klub Ajdovščina</strong>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#domov">Domov</a></li>
+          <li><a href="#o-rotaryju">O Rotaryju</a></li>
+          <li><a href="#o-klubu">O Klubu</a></li>
+          <li><a href="#dobrodelnost">Dobrodelnost</a></li>
+          <li><a href="#kontakt" class="btn btn-outline-gold">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Odpri meni" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════════ -->
+  <section class="hero" id="domov">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Service Above Self</p>
+      <h1>Rotary klub<br>Ajdovščina</h1>
+      <p class="hero-sub">Skupnost poslovnežev in strokovnjakov, ki z dobrodelnostjo in prijateljstvom gradimo boljši svet.</p>
+      <div class="hero-actions">
+        <a href="#dogodki" class="btn btn-gold">Prihajajoči dogodki</a>
+        <a href="#o-klubu" class="btn btn-outline-white">Spoznaj nas</a>
+      </div>
+    </div>
+    <!-- Decorative gold bar at the bottom of hero -->
+    <div class="hero-bar"></div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       UPCOMING EVENTS
+  ═══════════════════════════════════════════════ -->
+  <section class="section events-section" id="dogodki">
+    <div class="container">
+      <h2 class="section-title">Prihajajoči dogodki</h2>
+
+      <!-- Event Card -->
+      <div class="event-card featured-event">
+        <div class="event-card__badge">Kmalu!</div>
+        <div class="event-card__img-wrap">
+          <img src="assets/salamijada.jpg" alt="Salamijada 2026" />
+        </div>
+        <div class="event-card__body">
+          <h3>XXIII. tradicionalna rotarijska Salamijada</h3>
+          <ul class="event-meta">
+            <li>
+              <span class="meta-icon">📅</span>
+              <span><strong>Datum:</strong> četrtek, 16. april 2026</span>
+            </li>
+            <li>
+              <span class="meta-icon">📍</span>
+              <span><strong>Lokacija:</strong> Vipavska klet, Vinarska cesta 5, Vipava</span>
+            </li>
+            <li>
+              <span class="meta-icon">🕕</span>
+              <span><strong>Ura:</strong> 18:00 sprejem — 18:45 uradni del</span>
+            </li>
+            <li>
+              <span class="meta-icon">💰</span>
+              <span><strong>Prispevek:</strong> 50 € / osebi &nbsp;|&nbsp; 35 € člani Rotaract klubov</span>
+            </li>
+          </ul>
+          <p class="event-card__desc">Dobrodelni prispevek vključuje program, hrano, pijačo in pokušino tekmovalnih salam.</p>
+
+          <div class="event-card__docs">
+            <a href="assets/Pravilnik-salamijada-2026.pdf" class="btn btn-sm btn-outline-blue" download>⬇ Pravilnik tekmovanja</a>
+            <a href="assets/Prijava-vzorca-2026.pdf" class="btn btn-sm btn-outline-blue" download>⬇ Prijava vzorca</a>
+          </div>
+
+          <div class="event-card__register">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSesJKRpfp1Nok_DC1OyZg0HJ_eLzT3eaCBJuqyEyUkdaOE1cQ/viewform?usp=sharing"
+               target="_blank" rel="noopener" class="btn btn-gold">Prijavi se →</a>
+            <span class="small-text">ali pošlji e-pošto na <a href="mailto:info@rotary-klub-ajdovscina.si">info@rotary-klub-ajdovscina.si</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       O ROTARYJU
+  ═══════════════════════════════════════════════ -->
+  <section class="section o-rotaryju-section bg-light" id="o-rotaryju">
+    <div class="container">
+      <h2 class="section-title">O Rotaryju</h2>
+
+      <div class="two-col">
+        <div class="two-col__text">
+          <p class="lead">Rotary International je organizacija svetovno povezanih poslovnežev in strokovnjakov iz različnih poklicev.</p>
+          <p>Člani Rotary klubov po svetu skrbijo za dobrodelne človekoljubne dejavnosti, v svojih poklicih vzpodbujajo visoka etična načela in merila ter pomagajo širiti dobro voljo ter mir na svetu.</p>
+          <p>Rotarijci načrtujejo in uresničujejo humanitarne, izobraževalne in kulturne programe, ki bogatijo življenje ljudi v njihovi ožji sredini in v svetovni skupnosti.</p>
+        </div>
+
+        <div class="four-questions">
+          <h3>Preizkus štirih vprašanj</h3>
+          <ol class="questions-list">
+            <li><span>Ali je prav?</span><em>Is it the TRUTH?</em></li>
+            <li><span>Ali je pošteno do vseh vpletenih?</span><em>Is it FAIR to all concerned?</em></li>
+            <li><span>Ali bo krepilo prijateljstvo in pripravljenost na nesebično delovanje?</span><em>Will it build GOODWILL and BETTER FRIENDSHIPS?</em></li>
+            <li><span>Ali bo koristilo vsem udeleženim?</span><em>Will it be BENEFICIAL to all concerned?</em></li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Rotary history quick facts -->
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">1905</div>
+          <p>Paul Harris ustanovi prvi Rotary klub v Chicagu, 23. februarja.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">1922</div>
+          <p>Uradno ime <strong>Rotary International</strong>. Danes ~1,3 milijona članov v 30.000+ klubih.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">1930</div>
+          <p>Prvo rotarijansko društvo v Sloveniji — Maribor, 15. november.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2001</div>
+          <p>Ustanovitev <strong>Rotary kluba Ajdovščina</strong>. Sprejet v RI oktobra 2002.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       O KLUBU + ČLANI
+  ═══════════════════════════════════════════════ -->
+  <section class="section o-klubu-section" id="o-klubu">
+    <div class="container">
+      <h2 class="section-title">O Rotary klubu Ajdovščina</h2>
+
+      <div class="two-col">
+        <div class="two-col__text">
+          <p class="lead">Rotary klub Ajdovščina je bil ustanovljen v začetku leta 2001, oktobra 2002 sprejet v Rotary International.</p>
+          <p>Delovanje kluba je usmerjeno k dobrodelnosti na področjih, ki jih sistemska pomoč države obide — v občinah Ajdovščina, Vipava, Logatec, Sežana, Divača, Bovec in okolici.</p>
+          <p>Skupaj s sosednjimi klubi izvajamo dobrodelne aktivnosti v širši regiji, z distriktom 1912 pa tudi vseslovenske projekte.</p>
+
+          <div class="info-box">
+            <strong>Sprejem novih članov</strong>
+            <p>Na lastno željo ni mogoče postati član Rotary-ja. Rotarijci izhajajo iz različnih poklicnih področij z osebno integriteto in vplivom.</p>
+          </div>
+        </div>
+
+        <!-- Members grid -->
+        <div class="members-grid">
+          <h3>Člani kluba</h3>
+          <ul class="members-list">
+            <li>Aleš Brenčič</li>
+            <li>Jože Petrovčič</li>
+            <li>Miha Glumac</li>
+            <li>Peter Marc</li>
+            <li>Robert Pavletič</li>
+            <li>Tilen Kranjc</li>
+            <li>Ivan Mikić</li>
+            <li>Marko Corn</li>
+            <li>Miha Matevžič</li>
+            <li>Tomaž Bizajl</li>
+            <li>Jerica Gomizelj</li>
+            <li>Dušan Černigoj</li>
+            <li>Eva Černigoj</li>
+            <li>Nace Mušič</li>
+            <li>Robert Černe</li>
+            <li class="honorary">Samo Oblak <em>(častni član)</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       DOBRODELNOST
+  ═══════════════════════════════════════════════ -->
+  <section class="section dobrodelnost-section bg-light" id="dobrodelnost">
+    <div class="container">
+      <h2 class="section-title">Dobrodelne akcije</h2>
+      <p class="section-sub">Skupaj gradimo skupnost — en korak naenkrat.</p>
+
+      <div class="cards-grid">
+
+        <!-- Card 1 -->
+        <article class="news-card">
+          <div class="news-card__img-wrap">
+            <img src="assets/koncert.jpg" alt="Dobrodelni novoletni koncert" />
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__date">December 2019</span>
+            <h3>Dobrodelni novoletni koncert</h3>
+            <p>Mladinska filharmonija je pod vodstvom Simona Perčiča zbirala dobrodelne prispevke za varovance Varstveno delovnega centra Ajdovščina-Vipava za nakup enotne športne opreme.</p>
+            <a href="#" class="link-arrow">Preberi več →</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="news-card">
+          <div class="news-card__img-wrap">
+            <img src="assets/bovec.jpg" alt="Dobrodelna sobota v Bovcu" />
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__date">Junij 2019</span>
+            <h3>Dobrodelna sobota v Bovcu</h3>
+            <p>BMW rally rotary sobota ob Soči skupaj z RC Idrija. Preizkus vozil BMW, adrenalinski odsek, leti Pipistrel in ZIP line. Zbrana sredstva namenjena programu botrstev za otroke (ZPM).</p>
+            <a href="#" class="link-arrow">Preberi več →</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="news-card">
+          <div class="news-card__img-wrap">
+            <img src="assets/srbija.jpg" alt="Pomoč poplavljenim v Srbiji" />
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__date">Maj 2014</span>
+            <h3>Pomoč poplavljenim v Srbiji</h3>
+            <p>V dveh dneh zbranih skoraj 6 ton pomoči (~500 paketov) za RC Čačak po poplavah v Srbiji in BiH. Dostava v Čačak izvedena v 3 dneh kljub zapletom na meji.</p>
+            <a href="#" class="link-arrow">Preberi več →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       KONTAKT
+  ═══════════════════════════════════════════════ -->
+  <section class="section kontakt-section" id="kontakt">
+    <div class="container">
+      <h2 class="section-title">Kontakt</h2>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h3>Pišite nam</h3>
+          <p>Kontaktirate nas lahko direktno na e-poštni naslov ali prek spodnjega obrazca.</p>
+          <a href="mailto:info@rotary-klub-ajdovscina.si" class="contact-email">
+            info@rotary-klub-ajdovscina.si
+          </a>
+
+          <h3 class="mt-lg">Srečanja</h3>
+          <address>
+            <strong>Vipavska klet</strong><br>
+            Vinarska cesta 5<br>
+            5271 Vipava
+          </address>
+          <a href="https://maps.app.goo.gl/LGxTmXC8spNEoS6V9" target="_blank" rel="noopener" class="btn btn-sm btn-outline-blue mt-sm">
+            🗺 Odpri na zemljevidu
+          </a>
+        </div>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">Ime in priimek</label>
+            <input type="text" id="name" name="name" placeholder="Vaše ime" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-pošta</label>
+            <input type="email" id="email" name="email" placeholder="vas@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Sporočilo</label>
+            <textarea id="message" name="message" rows="5" placeholder="Vaše sporočilo..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold">Pošlji sporočilo</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <img src="assets/RotaryMBS-Simple_CMYK-C.png" alt="Rotary" class="footer-logo" />
+        <p>Rotary klub Ajdovščina<br>
+          <a href="mailto:info@rotary-klub-ajdovscina.si">info@rotary-klub-ajdovscina.si</a>
+        </p>
+      </div>
+
+      <nav class="footer-nav">
+        <h4>Strani</h4>
+        <ul>
+          <li><a href="#domov">Domov</a></li>
+          <li><a href="#o-rotaryju">O Rotaryju</a></li>
+          <li><a href="#o-klubu">O Klubu</a></li>
+          <li><a href="#dobrodelnost">Dobrodelnost</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-links">
+        <h4>Povezave</h4>
+        <ul>
+          <li><a href="https://www.rotary.org/" target="_blank" rel="noopener">Rotary International</a></li>
+          <li><a href="https://rotary1912.org/" target="_blank" rel="noopener">District 1912</a></li>
+          <li><a href="https://www.rotary.org/en/rotary-foundation" target="_blank" rel="noopener">Rotary Foundation</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 Rotary klub Ajdovščina. Vse pravice pridržane.</span>
+        <span class="footer-motto">Service Above Self</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
